@@ -4,6 +4,7 @@ calculate_fall_point() {
   let POINT=1
   let POINT=POINT*2
   let POINT=POINT+3
+  let POINT=POINT*POINT
   
   echo "$POINT" > fp.txt
 }
