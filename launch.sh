@@ -1,5 +1,9 @@
 #!/bin/bash
 
+calculate_fall_point() {
+  echo "0" > fp.txt
+}
+
 calculate_accident_fall_point() {
   echo "0" > accident_fp.txt
 }
@@ -16,6 +20,7 @@ calculate_fuel() {
   echo "0" > fuel.txt
 }
 
+calculate_fall_point
 calculate_accident_fall_point
 calculate_satellite_orbit
 calculate_flight_time
